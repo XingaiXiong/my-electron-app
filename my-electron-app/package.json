@@ -1,0 +1,27 @@
+{
+  "name": "my-electron-app",
+  "version": "0.0.0",
+  "description": "test",
+  "keywords": [
+    "electron",
+    "desktop"
+  ],
+  "homepage": "https://github.com/XingaiXiong/my-electron-app#readme",
+  "bugs": {
+    "url": "https://github.com/XingaiXiong/my-electron-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/XingaiXiong/my-electron-app.git"
+  },
+  "license": "MIT",
+  "author": "Xiong",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "electron": "^41.1.1"
+  }
+}
