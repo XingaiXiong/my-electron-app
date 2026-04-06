@@ -1,4 +1,4 @@
-const {app, BrowserWindow, ipcMain} = require('electron/main')//Importing two Electron modules;app controls your application's event lifecycle; BrowserWindow creates and manages app windows.
+const {app, BrowserWindow, ipcMain, nativeTheme} = require('electron/main')//Importing two Electron modules;app controls your application's event lifecycle; BrowserWindow creates and manages app windows.
 
 const path = require('node:path')
 
@@ -10,7 +10,7 @@ const createWindow = () => {//This function loads your web page into a new Brows
             preload: path.join(__dirname, 'preload.js')
         }
         })
-        win.loadFile('index.html')
+        win.loadFile('购物网站.html')
 }
 
 app.whenReady().then(()=>{ //calling your function when the app is ready
