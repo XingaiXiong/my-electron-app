@@ -1,3 +1,4 @@
+require('update-electron-app')()//added auto update feaure
 const {app, BrowserWindow, ipcMain, nativeTheme} = require('electron/main')//Importing two Electron modules;app controls your application's event lifecycle; BrowserWindow creates and manages app windows.
 
 const path = require('node:path')
